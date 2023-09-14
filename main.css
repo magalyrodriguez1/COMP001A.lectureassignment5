@@ -91,7 +91,7 @@ a {
     display: inline-block; /*making the link a block element*/
     color: #3498db; /*bright blue text color*/
     text-decoration: none; /*removes the underline*/
-    padding: 5px 10 px; /*adding some space inside the link*/
+    padding: 5px 10px; /*adding some space inside the link*/
     border: 1px solid #3498db; /*bright blue border color*/
     transition: all .3s ease; /*adding a transition*/
 }
