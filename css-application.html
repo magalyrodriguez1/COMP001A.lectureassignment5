@@ -1,10 +1,50 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head>
-    <title></title>
+    <title>CSS application</title>
     <meta charset="UTF-8">
+
+    <!--Method 1: External CSS Part 1-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--Method 2: Internal CSS Part 1-->
+    <style>
+        .internal-css{
+            color:#038c7f;
+            background-color: #04bfad;
+        }
+    </style>
 </head>
 <body>
+    <section>
+        <h2>External CSS</h2>
+        <!--Method 1: External CSS Part 2-->
+        <div class="external-css">
+        <p>This is external CSS. My name is Magaly.
+            I live in San Joaquin, California. I was 
+            born in Fresno.
+        </p>
+        </div>
+        </section>
+
+        <section>
+            <h2>Internal CSS</h2>
+            <!--Method 1: Internal CSS Part 2-->
+            <div class="internal-css">
+                <p>This is internal CSS. My name is Magaly.
+                    I live in San Joaquin, California. I was 
+                    born in Fresno.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Inline CSS</h2>
+            <!--Method 3: Inline CSS-->
+            <p style="color: #34D02A;">This is inline CSS. My name is Magaly. 
+            I live in San Joaquin, California. I was born in Fresno.</p>
+        </section>
+   
 
 </body>
 </html>
